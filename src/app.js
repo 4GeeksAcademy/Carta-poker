@@ -5,10 +5,8 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 window.onload = function() {
-  // Write your code here
   newCard();
 
-  // Add event listener to the button
   document.querySelector("#new-card-btn").addEventListener("click", newCard);
 };
 
